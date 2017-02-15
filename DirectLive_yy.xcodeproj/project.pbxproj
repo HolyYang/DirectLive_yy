@@ -1,0 +1,616 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3B52C1E11E53EB22009F217D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B52C1E01E53EB22009F217D /* main.m */; };
+		3B52C1E41E53EB22009F217D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B52C1E31E53EB22009F217D /* AppDelegate.m */; };
+		3B52C1E71E53EB22009F217D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B52C1E61E53EB22009F217D /* ViewController.m */; };
+		3B52C1EA1E53EB22009F217D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3B52C1E81E53EB22009F217D /* Main.storyboard */; };
+		3B52C1EC1E53EB22009F217D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3B52C1EB1E53EB22009F217D /* Assets.xcassets */; };
+		3B52C1EF1E53EB22009F217D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3B52C1ED1E53EB22009F217D /* LaunchScreen.storyboard */; };
+		3B52C1FA1E53EB23009F217D /* DirectLive_yyTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B52C1F91E53EB23009F217D /* DirectLive_yyTests.m */; };
+		3B52C2051E53EB23009F217D /* DirectLive_yyUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B52C2041E53EB23009F217D /* DirectLive_yyUITests.m */; };
+		B78389DCDDF58368A39F3F2E /* libPods-DirectLive_yy.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 01CEF3B587310DCD1B43CBBB /* libPods-DirectLive_yy.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3B52C1F61E53EB23009F217D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3B52C1D41E53EB22009F217D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3B52C1DB1E53EB22009F217D;
+			remoteInfo = DirectLive_yy;
+		};
+		3B52C2011E53EB23009F217D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3B52C1D41E53EB22009F217D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3B52C1DB1E53EB22009F217D;
+			remoteInfo = DirectLive_yy;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		01CEF3B587310DCD1B43CBBB /* libPods-DirectLive_yy.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DirectLive_yy.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		171BA66AE18E46A78123D9EA /* Pods-DirectLive_yy.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DirectLive_yy.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DirectLive_yy/Pods-DirectLive_yy.debug.xcconfig"; sourceTree = "<group>"; };
+		3B52C1DC1E53EB22009F217D /* DirectLive_yy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DirectLive_yy.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3B52C1E01E53EB22009F217D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3B52C1E21E53EB22009F217D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		3B52C1E31E53EB22009F217D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		3B52C1E51E53EB22009F217D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		3B52C1E61E53EB22009F217D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		3B52C1E91E53EB22009F217D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3B52C1EB1E53EB22009F217D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3B52C1EE1E53EB22009F217D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3B52C1F01E53EB22009F217D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3B52C1F51E53EB23009F217D /* DirectLive_yyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DirectLive_yyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3B52C1F91E53EB23009F217D /* DirectLive_yyTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DirectLive_yyTests.m; sourceTree = "<group>"; };
+		3B52C1FB1E53EB23009F217D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3B52C2001E53EB23009F217D /* DirectLive_yyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DirectLive_yyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3B52C2041E53EB23009F217D /* DirectLive_yyUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DirectLive_yyUITests.m; sourceTree = "<group>"; };
+		3B52C2061E53EB23009F217D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		40A4FBA843CE757878FFEE2A /* Pods-DirectLive_yy.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DirectLive_yy.release.xcconfig"; path = "Pods/Target Support Files/Pods-DirectLive_yy/Pods-DirectLive_yy.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3B52C1D91E53EB22009F217D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B78389DCDDF58368A39F3F2E /* libPods-DirectLive_yy.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3B52C1F21E53EB23009F217D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3B52C1FD1E53EB23009F217D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3B52C1D31E53EB22009F217D = {
+			isa = PBXGroup;
+			children = (
+				3B52C1DE1E53EB22009F217D /* DirectLive_yy */,
+				3B52C1F81E53EB23009F217D /* DirectLive_yyTests */,
+				3B52C2031E53EB23009F217D /* DirectLive_yyUITests */,
+				3B52C1DD1E53EB22009F217D /* Products */,
+				F0287E55A053B7DEAE3A283F /* Pods */,
+				B18BBD35EBAC83005D6A87F3 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		3B52C1DD1E53EB22009F217D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3B52C1DC1E53EB22009F217D /* DirectLive_yy.app */,
+				3B52C1F51E53EB23009F217D /* DirectLive_yyTests.xctest */,
+				3B52C2001E53EB23009F217D /* DirectLive_yyUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3B52C1DE1E53EB22009F217D /* DirectLive_yy */ = {
+			isa = PBXGroup;
+			children = (
+				3B52C1E21E53EB22009F217D /* AppDelegate.h */,
+				3B52C1E31E53EB22009F217D /* AppDelegate.m */,
+				3B52C1E51E53EB22009F217D /* ViewController.h */,
+				3B52C1E61E53EB22009F217D /* ViewController.m */,
+				3B52C1E81E53EB22009F217D /* Main.storyboard */,
+				3B52C1EB1E53EB22009F217D /* Assets.xcassets */,
+				3B52C1ED1E53EB22009F217D /* LaunchScreen.storyboard */,
+				3B52C1F01E53EB22009F217D /* Info.plist */,
+				3B52C1DF1E53EB22009F217D /* Supporting Files */,
+			);
+			path = DirectLive_yy;
+			sourceTree = "<group>";
+		};
+		3B52C1DF1E53EB22009F217D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3B52C1E01E53EB22009F217D /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3B52C1F81E53EB23009F217D /* DirectLive_yyTests */ = {
+			isa = PBXGroup;
+			children = (
+				3B52C1F91E53EB23009F217D /* DirectLive_yyTests.m */,
+				3B52C1FB1E53EB23009F217D /* Info.plist */,
+			);
+			path = DirectLive_yyTests;
+			sourceTree = "<group>";
+		};
+		3B52C2031E53EB23009F217D /* DirectLive_yyUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3B52C2041E53EB23009F217D /* DirectLive_yyUITests.m */,
+				3B52C2061E53EB23009F217D /* Info.plist */,
+			);
+			path = DirectLive_yyUITests;
+			sourceTree = "<group>";
+		};
+		B18BBD35EBAC83005D6A87F3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				01CEF3B587310DCD1B43CBBB /* libPods-DirectLive_yy.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F0287E55A053B7DEAE3A283F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				171BA66AE18E46A78123D9EA /* Pods-DirectLive_yy.debug.xcconfig */,
+				40A4FBA843CE757878FFEE2A /* Pods-DirectLive_yy.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3B52C1DB1E53EB22009F217D /* DirectLive_yy */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3B52C2091E53EB23009F217D /* Build configuration list for PBXNativeTarget "DirectLive_yy" */;
+			buildPhases = (
+				34EE66431555EBD3C483B878 /* [CP] Check Pods Manifest.lock */,
+				3B52C1D81E53EB22009F217D /* Sources */,
+				3B52C1D91E53EB22009F217D /* Frameworks */,
+				3B52C1DA1E53EB22009F217D /* Resources */,
+				80B46B4FDA043D84FE5F16E1 /* [CP] Embed Pods Frameworks */,
+				12445513C048134AD44B9EAE /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DirectLive_yy;
+			productName = DirectLive_yy;
+			productReference = 3B52C1DC1E53EB22009F217D /* DirectLive_yy.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3B52C1F41E53EB23009F217D /* DirectLive_yyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3B52C20C1E53EB23009F217D /* Build configuration list for PBXNativeTarget "DirectLive_yyTests" */;
+			buildPhases = (
+				3B52C1F11E53EB23009F217D /* Sources */,
+				3B52C1F21E53EB23009F217D /* Frameworks */,
+				3B52C1F31E53EB23009F217D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3B52C1F71E53EB23009F217D /* PBXTargetDependency */,
+			);
+			name = DirectLive_yyTests;
+			productName = DirectLive_yyTests;
+			productReference = 3B52C1F51E53EB23009F217D /* DirectLive_yyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3B52C1FF1E53EB23009F217D /* DirectLive_yyUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3B52C20F1E53EB23009F217D /* Build configuration list for PBXNativeTarget "DirectLive_yyUITests" */;
+			buildPhases = (
+				3B52C1FC1E53EB23009F217D /* Sources */,
+				3B52C1FD1E53EB23009F217D /* Frameworks */,
+				3B52C1FE1E53EB23009F217D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3B52C2021E53EB23009F217D /* PBXTargetDependency */,
+			);
+			name = DirectLive_yyUITests;
+			productName = DirectLive_yyUITests;
+			productReference = 3B52C2001E53EB23009F217D /* DirectLive_yyUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3B52C1D41E53EB22009F217D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = yangyang;
+				TargetAttributes = {
+					3B52C1DB1E53EB22009F217D = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 7J9UJGR3XP;
+						ProvisioningStyle = Automatic;
+					};
+					3B52C1F41E53EB23009F217D = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 7J9UJGR3XP;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 3B52C1DB1E53EB22009F217D;
+					};
+					3B52C1FF1E53EB23009F217D = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 7J9UJGR3XP;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 3B52C1DB1E53EB22009F217D;
+					};
+				};
+			};
+			buildConfigurationList = 3B52C1D71E53EB22009F217D /* Build configuration list for PBXProject "DirectLive_yy" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3B52C1D31E53EB22009F217D;
+			productRefGroup = 3B52C1DD1E53EB22009F217D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3B52C1DB1E53EB22009F217D /* DirectLive_yy */,
+				3B52C1F41E53EB23009F217D /* DirectLive_yyTests */,
+				3B52C1FF1E53EB23009F217D /* DirectLive_yyUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3B52C1DA1E53EB22009F217D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B52C1EF1E53EB22009F217D /* LaunchScreen.storyboard in Resources */,
+				3B52C1EC1E53EB22009F217D /* Assets.xcassets in Resources */,
+				3B52C1EA1E53EB22009F217D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3B52C1F31E53EB23009F217D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3B52C1FE1E53EB23009F217D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		12445513C048134AD44B9EAE /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DirectLive_yy/Pods-DirectLive_yy-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		34EE66431555EBD3C483B878 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		80B46B4FDA043D84FE5F16E1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DirectLive_yy/Pods-DirectLive_yy-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3B52C1D81E53EB22009F217D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B52C1E71E53EB22009F217D /* ViewController.m in Sources */,
+				3B52C1E41E53EB22009F217D /* AppDelegate.m in Sources */,
+				3B52C1E11E53EB22009F217D /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3B52C1F11E53EB23009F217D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B52C1FA1E53EB23009F217D /* DirectLive_yyTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3B52C1FC1E53EB23009F217D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B52C2051E53EB23009F217D /* DirectLive_yyUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3B52C1F71E53EB23009F217D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3B52C1DB1E53EB22009F217D /* DirectLive_yy */;
+			targetProxy = 3B52C1F61E53EB23009F217D /* PBXContainerItemProxy */;
+		};
+		3B52C2021E53EB23009F217D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3B52C1DB1E53EB22009F217D /* DirectLive_yy */;
+			targetProxy = 3B52C2011E53EB23009F217D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3B52C1E81E53EB22009F217D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3B52C1E91E53EB22009F217D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3B52C1ED1E53EB22009F217D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3B52C1EE1E53EB22009F217D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3B52C2071E53EB23009F217D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		3B52C2081E53EB23009F217D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3B52C20A1E53EB23009F217D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 171BA66AE18E46A78123D9EA /* Pods-DirectLive_yy.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 7J9UJGR3XP;
+				INFOPLIST_FILE = DirectLive_yy/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yangyang.DirectLive-yy";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		3B52C20B1E53EB23009F217D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 40A4FBA843CE757878FFEE2A /* Pods-DirectLive_yy.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 7J9UJGR3XP;
+				INFOPLIST_FILE = DirectLive_yy/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yangyang.DirectLive-yy";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		3B52C20D1E53EB23009F217D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 7J9UJGR3XP;
+				INFOPLIST_FILE = DirectLive_yyTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yangyang.DirectLive-yyTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DirectLive_yy.app/DirectLive_yy";
+			};
+			name = Debug;
+		};
+		3B52C20E1E53EB23009F217D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 7J9UJGR3XP;
+				INFOPLIST_FILE = DirectLive_yyTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yangyang.DirectLive-yyTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DirectLive_yy.app/DirectLive_yy";
+			};
+			name = Release;
+		};
+		3B52C2101E53EB23009F217D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 7J9UJGR3XP;
+				INFOPLIST_FILE = DirectLive_yyUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yangyang.DirectLive-yyUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = DirectLive_yy;
+			};
+			name = Debug;
+		};
+		3B52C2111E53EB23009F217D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 7J9UJGR3XP;
+				INFOPLIST_FILE = DirectLive_yyUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yangyang.DirectLive-yyUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = DirectLive_yy;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3B52C1D71E53EB22009F217D /* Build configuration list for PBXProject "DirectLive_yy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3B52C2071E53EB23009F217D /* Debug */,
+				3B52C2081E53EB23009F217D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3B52C2091E53EB23009F217D /* Build configuration list for PBXNativeTarget "DirectLive_yy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3B52C20A1E53EB23009F217D /* Debug */,
+				3B52C20B1E53EB23009F217D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		3B52C20C1E53EB23009F217D /* Build configuration list for PBXNativeTarget "DirectLive_yyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3B52C20D1E53EB23009F217D /* Debug */,
+				3B52C20E1E53EB23009F217D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		3B52C20F1E53EB23009F217D /* Build configuration list for PBXNativeTarget "DirectLive_yyUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3B52C2101E53EB23009F217D /* Debug */,
+				3B52C2111E53EB23009F217D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3B52C1D41E53EB22009F217D /* Project object */;
+}
